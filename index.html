@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technician Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #1a202c;
+            margin-bottom: 24px;
+            font-size: 1.5rem;
+        }
+        .section-title {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #718096;
+            margin: 20px 0 8px 4px;
+        }
+        .link-card {
+            display: block;
+            background: #ffffff;
+            color: #2d3748;
+            text-decoration: none;
+            padding: 16px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            font-weight: 600;
+            border-left: 5px solid #3182ce;
+            transition: transform 0.1s ease, box-shadow 0.1s ease;
+        }
+        .link-card:active {
+            transform: scale(0.98);
+        }
+        .link-card.form { border-left-color: #38a169; }
+        .link-card.script { border-left-color: #dd6b20; }
+        .link-card.powerapp { border-left-color: #805ad5; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Technician Dashboard</h1>
+
+    <div class="section-title">Forms & Reports</div>
+    <a class="link-card form" href="https://docs.google.com/forms/d/e/1FAIpQLSfMBgv_xUEXMuKodFCNic1IVU7TqJbP7NaSEqUAEVkcLpDh9w/viewform" target="_blank">OSP DEFECTS GS FORMS</a>
+    <a class="link-card form" href="https://docs.google.com/forms/d/e/1FAIpQLScgRpfckHUqGLGEIsefWL4a5rC6FrvMRCaRkLx87oGklmxtUA/viewform" target="_blank">CXSDA SPECIAL ASSIGNMENT WORK DONE REPORT</a>
+    <a class="link-card form" href="https://docs.google.com/forms/d/e/1FAIpQLSdTZOLEmR4toBxc0uhlRbpLp9ElRzh7Hlo5Pudbpb80VbJyQA/viewform" target="_blank">WAR FFUPS FROM BO & ZONE</a>
+
+    <div class="section-title">Apps & Tools</div>
+    <a class="link-card powerapp" href="https://login.microsoftonline.com/dca43453-b963-4ff1-9f4d-75c0dffa839/oauth2/v2.0/authorize?client_id=3e62f81e-590b-425b-9531-cad6683656cf&scope=https%3A%2F%2Fservice.powerapps.com%2F.default" target="_blank">MARATEL INVENTORY - MIT POWER APPS</a>
+    <a class="link-card script" href="https://script.google.com/macros/s/AKfycbw6oQE7Ah-z4gkkpre--g_LhDtMZu6GF56u2cVBxg6gZT2AX7eKzObdlHX6PNi6sx3o_Q/exec" target="_blank">Maratel Subscriber Log</a>
+    <a class="link-card script" href="https://script.google.com/macros/s/AKfycbxYAkzK3cCVxwP1uxI_EFwrmu623SiVFa_raXktRIQ4PcxvXmJpPkEi2vPfEcJ5ckLY0g/exec" target="_blank">SALES ZERO PORT UTILIZATION</a>
+
+    <div class="section-title">Locators & Maps</div>
+    <a class="link-card script" href="https://script.google.com/macros/s/AKfycbzY5AV-qmCxVh5syDul4Q3UxjHGuBrzxwZ1826cVqNcc6lOkJh5zn71AN9kwoXYNmaw/exec" target="_blank">TELCO NAP LOCATOR (GLOBE, CONVERGE, P2P, SCV)</a>
+    <a class="link-card script" href="https://script.google.com/macros/s/AKfycbzY5AV-qmCxVh5syDul4Q3UxjHGuBrzxwZ1826cVqNcc6lOkJh5zn71AN9kwoXYNmaw/exec?page=map" target="_blank">TELCO NAP LOCATOR - MAP</a>
+    <a class="link-card script" href="https://script.google.com/macros/s/AKfycbx07RN0e3y3thVHCaycaSQxYhNT1hWkqXZ6pBaHXrsn9bUk5v6MNVyjRLPKWPt4a_X9/exec" target="_blank">CXSDA FACILITY MAP</a>
+</div>
+
+</body>
+</html>
